@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.teclado-calculadora{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(6,100px);
+    height: 100vh;
+}
+    
+#pantalla {
+    grid-column: 1/-1;
+    border: solid black;
+    display: flex;
+   
+    justify-content:center;
+    align-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 10px;
+    
+    background-color: chocolate;
+  
+}
+
+.boton-doble{
+    grid-column: span 2;
+}
