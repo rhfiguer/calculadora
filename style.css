@@ -1,0 +1,58 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+#general-container{
+    display: grid;
+
+    }
+#iniciar{
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: chocolate;
+}
+
+.panel-juego{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    
+}
+
+.grid-item{
+    background-color: aquamarine;
+    height: 100px;
+}
+
+
+
+#titulo{
+    display: block;
+    width: 100%;
+    background-color: bisque;
+    margin-top: 10px;
+    
+}
+
+#jugadores{
+    display: flexbox;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#jugador-uno{
+    display: flex;
+    background-color: blueviolet;
+    
+}
+
+#jugador-dos{
+    display: flex;
+    align-self: flex-start;
+    background-color: blue;
+    
+}

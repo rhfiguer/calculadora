@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego del Gato</title>
+</head>
+<body>
+    <div id="general-container">
+        <div id="titulo">
+            <h1>El Juego del Gato en Simple</h1>
+        </div>
+
+        <div id="jugadores">
+            <div >
+                <label >Jugador Uno</label>
+                <input id="jugador-uno" type="text">
+            </div>
+
+            <div >
+                <label >Jugador Dos</label>
+                <input id="jugador-dos" type="text">
+            </div>
+        </div>
+
+        <div>
+            <button id="iniciar">Iniciar Juego</button>
+        </div>
+
+        <div>
+            <span>Es tu turno :</span> <span id="mensaje"></span> <span style="font-size: 80px;">Tiempo disponible :</span><span id="cronometro" style="font-size: 80px;">30</span>
+        </div>
+
+        <div class="panel-juego">
+            <button id="1" class="grid-item" onclick="asignar(event)"></button>
+            <button id="2" class="grid-item" onclick="asignar(event)"></button>
+            <button id="3" class="grid-item" onclick="asignar(event)"></button>
+            <button id="4" class="grid-item" onclick="asignar(event)"></button>
+            <button id="5" class="grid-item" onclick="asignar(event)"></button>
+            <button id="6" class="grid-item" onclick="asignar(event)"></button>
+            <button id="7" class="grid-item" onclick="asignar(event)"></button>
+            <button id="8" class="grid-item" onclick="asignar(event)"></button>
+            <button id="9" class="grid-item" onclick="asignar(event)"></button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
